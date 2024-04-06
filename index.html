@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hangman</title>
+</head>
+
+<body>
+
+	<div class="game-modal">
+		<div class="content">
+			<img src="./img/lost.gif" alt="lost-gif">
+			<h4>Game over!</h4>
+			<p>The correct word pass <b>rainbow</b></p>
+			<button class="play-again">Play Again</button>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="hangman-box">
+			<img src="./img/hangman-0.svg" alt="hangman-img">
+			<h1>Hangman game</h1>
+		</div>
+
+		<div class="game-box">
+			<ul class="word-display">
+				<!-- <li class="letter"></li>
+				<li class="letter"></li>
+				<li class="letter guessed"></li>
+				<li class="letter"></li>
+				<li class="letter"></li>
+				<li class="letter"></li>
+				<li class="letter"></li> -->
+			</ul>
+			<h4 class="hint-text">
+				Hint
+				<b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nihil.</b>
+			</h4>
+
+			<h4 class="guesses-text">
+				Inccorect Guesses:
+				<b>0 / 6</b>
+			</h4>
+			<div class="keyboard">
+				<!-- <button>a</button>
+				<button>b</button>
+				<button>c</button>
+				<button>d</button>
+				<button>e</button>
+				<button>f</button>
+				<button>g</button>
+				<button>h</button>
+				<button>i</button>
+				<button>j</button>
+				<button>k</button>
+				<button>l</button>
+				<button>m</button>
+				<button>n</button>
+				<button>o</button>
+				<button>p</button>
+				<button>q</button>
+				<button>r</button>
+				<button>s</button>
+				<button>t</button>
+				<button>u</button>
+				<button>v</button>
+				<button>w</button>
+				<button>x</button>
+				<button>y</button>
+				<button>z</button> -->
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+
+	<audio id="victoryAudio" src="./mp3/Sound_1.mp3"></audio>
+	<audio id="loseAudio" src="./mp3/Sound_2.mp3"></audio>
+
+	<script src="./js/word-list.js"></script>
+	<script src="./js/main.js"></script>
+
+</body>
+
+</html>
